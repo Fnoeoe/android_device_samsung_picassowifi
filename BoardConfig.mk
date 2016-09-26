@@ -130,6 +130,7 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 BOARD_USES_SCALER := true
 
 # SELinux
+include device/qcom/sepolicy/sepolicy.mk  #Zum Testen
 BOARD_SEPOLICY_DIRS += \
 	device/samsung/picassowifi/sepolicy
 
