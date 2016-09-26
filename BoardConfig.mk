@@ -134,20 +134,20 @@ include device/qcom/sepolicy/sepolicy.mk  #Zum Testen
 BOARD_SEPOLICY_DIRS += \
 	device/samsung/picassowifi/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-	file_contexts \
-	device.te \
-	domain.te \
-	drmserver.te \
-	file.te \
-	gpsd.te \
-	init.te \
-	mediaserver.te \
-	servicemanager.te \
-	system_app.te \
-	system_server.te \
-	vold.te \
-	wpa.te
+#BOARD_SEPOLICY_UNION += \
+#	file_contexts \
+#	device.te \
+#	domain.te \
+#	drmserver.te \
+#	file.te \
+#	gpsd.te \
+#	init.te \
+#	mediaserver.te \
+#	servicemanager.te \
+#	system_app.te \
+#	system_server.te \
+#	vold.te \
+#	wpa.te
 
 # SurfaceFlinger
 BOARD_USES_SYNC_MODE_FOR_MEDIA := true
