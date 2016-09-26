@@ -1,9 +1,12 @@
 $(call inherit-product, device/samsung/picassowifi/full_picassowifi.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common Slim stuff.
+$(call inherit-product, vendor/slim/config/common.mk)
 
-PRODUCT_NAME := cm_picassowifi
+# Inherit some common CM stuff.
+#$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+
+PRODUCT_NAME := slim_picassowifi
 PRODUCT_DEVICE := picassowifi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
